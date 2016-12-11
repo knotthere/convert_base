@@ -39,6 +39,11 @@ int Convert()
 	// Use the string array for mapping from decimal to the new base
 	string strMap = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
+	// Ask for the new base
+	if (!getInt("Convert base 10 integers to this base: ", nBase)) {
+		return 0;	// We are done
+	}
+
 	while (getInt("Integer to convert: ", nInput)) {
 		// Now, iterate over the passed integer, and collect each right-most remainder in base format
 		string strOutput;
