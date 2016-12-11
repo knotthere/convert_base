@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "C++ Launch",
+            "name": "C++ Launch Mac",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceRoot}/a.out",
@@ -36,7 +36,7 @@
             }
         },
         {
-            "name": "C++ Attach",
+            "name": "C++ Attach Mac",
             "type": "cppdbg",
             "request": "attach",
             "program": "${workspaceRoot}/a.out",
