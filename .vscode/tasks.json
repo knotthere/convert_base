@@ -4,6 +4,7 @@
     "version": "0.1.0",
     "command": "clang++",
     "isShellCommand": true,
-    "args": ["-g", "Convert.cpp"],
-    "showOutput": "always"
+    "args": ["-g", "Convert.cpp", "-o", "Convert"],
+    "showOutput": "always",
+    "echoCommand": true
 }
