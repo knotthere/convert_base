@@ -31,3 +31,4 @@
 # Mac files
 .DS_Store
 *.out.dSYM/*
+./Convert

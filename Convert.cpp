@@ -25,7 +25,9 @@ bool getInt(string strPrompt, int& nInput)
         const char* pStr = strInput.c_str();
         // Convert that to an integer
         // https://msdn.microsoft.com/en-us/library/yd5xkb5c.aspx
-        nInput = atoi(pStr);
+        // Also, can use the string method stoi():
+        // http://en.cppreference.com/w/cpp/string/basic_string/stol
+        nInput = stoi(pStr);
         return true;
     }
 }
